@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <style>
+        .main{
+            width: 350px;
+            height: 450px;
+            border: 1px solid white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 90px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+input{
+    width: 95%;
+    text-align: right;
+    height: 90px;
+top: 9px;
+/* left: 4px; */
+position: relative;
+border-radius: 4px;
+font-size: larger;
+}
+.buttons1 button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.buttons1 button:hover{
+    background-color: red;
+}
+.ac{
+    background-color: orange;
+}
+.ac:hover{
+        color: white;
+}
+.buttons2 button{
+    margin-top: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.buttons2 button:hover{
+    background-color: rgb(135, 247, 7);
+}
+/* -------------------numbers-------------- */
+.numbers button{
+margin-top: 15px;
+padding: 10px 30px;
+}
+.numbers button:hover{
+    background-color:yellow;
+}
+.zero button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    
+}
+#equal{
+    cursor: pointer;
+    background-color:yellow;
+    border-radius: 4px;
+    
+}
+#equal:hover{
+    background-color: red;
+}
+.zero button:hover{
+    background-color:rgb(255, 174, 0);
+}
+.leftarrow{
+    background-color: rgb(255, 165, 0);
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+<form action="texthere">
+    <input type="text" placeholder="0">
+</form><br>
+<div class="buttons1">
+<button>mc</button>
+<button>mc</button>
+<button>mc</button>
+<button>mc</button>
+<button class="ac">AC</button>
+</div>
+<div class="buttons2">
+    <button>%</button>
+    <button>*</button>
+    <button>-</button>
+    <button>+</button>
+    <button class="leftarrow"><-</button>
+    </div>
+<div class="numbers">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+</div>
+<div class="numbers">
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+</div>
+<div class="numbers">
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+</div>
+<div class="zero">
+<button>0</button>
+<button id="equal">=</button>
+</div>
+    </div>
+</body>
+</html>
